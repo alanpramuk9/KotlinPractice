@@ -1,1 +1,1 @@
-rootProject.name = "kotlin-problem-sets"
+rootProject.name = "KotlinPractice"
