@@ -1,7 +1,7 @@
 //https://open.kattis.com/problems/jackolanternjuxtaposition
 
 fun main() {
-    val line = readLine()!!.split(" ").map{it.toInt()}
+    val line = readLine()!!.split(" ").map{String::toInt()}
     val numCombinations = line.reduce { sum: Int, currValue: Int ->
         sum * currValue
     }
